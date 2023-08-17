@@ -14,7 +14,7 @@ namespace AdoConnectionSqlWithParameter
             Console.Write("Please enter Employee ID: ");
             int EmId = int.Parse(Console.ReadLine()); 
 
-            string connectionString = "Server = (LocalDB)\\MSSQLLocalDB; Initial Catalog = MYDB; Integrated Security = true";
+            string connectionString = "Server =(LocalDB)\\MSSQLLocalDB; Initial Catalog = MYDB; Integrated Security = true";
 
             string query = "select * from EMPLOYEES where ID = @EmId";
 
